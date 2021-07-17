@@ -1,0 +1,92 @@
+.header {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header a {
+  color: black;
+  text-decoration: none;
+  padding: .5em 1em .5em 1em;
+  border-radius: 10px;
+  -webkit-box-shadow: -5px -5px 12px white, -3px -3px 8px rgba(255, 255, 255, 0.5), inset 3px 3px 5px rgba(255, 255, 255, 0.5), 2px 2px 8px black;
+          box-shadow: -5px -5px 12px white, -3px -3px 8px rgba(255, 255, 255, 0.5), inset 3px 3px 5px rgba(255, 255, 255, 0.5), 2px 2px 8px black;
+}
+
+.body {
+  min-height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1em;
+}
+
+.body .login-sig-up {
+  padding: 1em;
+  border-radius: 10px;
+  -webkit-box-shadow: -5px -5px 12px white, -3px -3px 8px rgba(255, 255, 255, 0.5), inset 3px 3px 5px rgba(255, 255, 255, 0.5), 2px 2px 8px black;
+          box-shadow: -5px -5px 12px white, -3px -3px 8px rgba(255, 255, 255, 0.5), inset 3px 3px 5px rgba(255, 255, 255, 0.5), 2px 2px 8px black;
+}
+
+.login-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+}
+
+input {
+  margin-top: 1em;
+  width: 100%;
+  background-color: rgba(93, 169, 231, 0.1);
+  outline: none;
+  border: none;
+}
+
+#loginBtn {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  left: 40%;
+  text-align: center;
+  background-color: #2b0d61;
+  color: white;
+  border-radius: 10px;
+}
+
+#signupBtn {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  left: 30%;
+  text-align: center;
+  background-color: #2b0d61;
+  color: white;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=login.css.map */

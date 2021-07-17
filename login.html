@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/login.css" type="text/css">
+    <title>Car Parking System</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row header">
+            <div class="offset-11"></div>
+            <div class="col-1">
+                <a href="index.html">Back</a>
+            </div>
+        </div>
+        <div class="row body">
+            <div class="offset-md-4 offset-0"></div>
+            <div class="login-sig-up col-md-4 col">
+                 <div class="row">
+                     <div class="col log-in" id="login">Login</div>
+                     <div class="col Sign up" id='singup'>signup</div>
+                 </div>
+                 <div class="row">
+                     <div class="col form">
+                         <div class="login-form" id="log-form">
+                             <form action="" method="POST">  
+                                     <input type="text" id="button" name="username-l" placeholder="Phone Number" required>
+                                     <input type="password" id="button" name="password-l" placeholder="Password" required>
+                                     <input type="submit" id="loginBtn" value="Log In">
+                             </form>
+                         </div>
+                         <div class="signup-form" id="sign-form">
+                            <form action="" method="POST">  
+                                <input type="text"name="username-i" placeholder="First Name & Last Name" required>
+                                <input type="number" name="number-i" min=0 max=9999999999 placeholder="Mobile Number">
+                                <input type="password"  name="password-i" placeholder="Password" required>
+                                <input type="password"  name="password-ic" placeholder="Conform Password" required>
+                                <input type="submit" id="signupBtn" value="Create An Account">
+                        </form>
+                         </div>
+                     </div>
+                 </div>
+            </div>
+            <div class="offset-md-4 offset-0"></div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="login.js"></script>
