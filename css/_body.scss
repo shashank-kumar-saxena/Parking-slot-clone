@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+.about-us
+{
+    position: relative;
+    color:white;
+    padding-top: 3em;
+    & .about-data
+    {
+     margin-top: 7em;
+     height:100%;
+     & h1
+     {
+         font-family:Monospace;
+         font-weight: 600;
+         font-size: 3em;
+         font-style: oblique;
+         letter-spacing: .1em;
+     }
+     & h6
+     {
+         margin-bottom: 1em;
+         line-height: 1.7em;
+     }
+     & button
+     {
+         background-color: none;
+         z-index: 3;
+         color:white;
+         border-radius: 10px;
+         border: none;
+         box-shadow:-5px -5px 12px rgba(43, 13, 97,1),
+                    -3px -3px 8px rgba(43, 13, 97,.5),
+                   inset 2px 2px 12px rgba(43, 13, 97,.5),
+                   2px 2px 12px rgba(0,0,0,1);
+                   
+     }
+     & button:hover
+                   {
+                    box-shadow:inset 5px 5px 12px rgba(43, 13, 97,1),
+                                     -3px -3px 8px rgba(43, 13, 97,.5),
+                                    inset -2px -2px 12px rgba(43, 13, 97,.5),
+                                    -2px -2px 12px rgba(43, 13, 97,.1);
+                    & span
+                    {
+                        display: inline-block;
+                        transform: scale(.95);
+                        opacity:.7;
+                    }
+                   }
+     & .btn-login
+     {
+         margin-right:2em;
+     }
+    }
+}
+@media (max-width:768px) {
+   
+    .about-data
+    {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
+@media (max-width:995px) {
+    .about-data
+    {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}

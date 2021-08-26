@@ -1,0 +1,130 @@
+.services
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    h1
+    {
+        margin-bottom: 1em;
+        margin-top: 3em;
+    }
+    h2
+    {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        font-weight: 500;
+    }
+    .services-data
+    {
+        display: grid;
+        width:60%;
+        padding: 1em;
+        grid-template-columns: 50% 50%;
+        grid-gap: 1em 1em;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        justify-items: center;
+        & a
+        {
+            text-decoration: none;
+            color: black;
+            &:hover
+            {
+                opacity:.7;
+            }
+        }
+        & .column
+        {
+            position: relative;
+            height: 100%;
+            border: 3px solid;
+            border-radius: 10px;
+            padding:1em;
+            & h5
+            {
+                font-size: 2em;
+                color: rgb(228, 0, 0);
+            }
+            & h1
+            {
+                text-decoration: underline;
+            }
+            & h6
+            {
+                text-align: justify;
+            }
+            & h6 span
+            {
+                text-decoration: underline;
+                color: rgb(23, 137, 175);
+            }
+        }
+    }
+}
+@media (max-width:1100px) {
+  
+  .services 
+   {
+       & .services-data
+       {
+            width:70%;
+       }
+   }
+}
+@media (max-width:996px) {
+  
+    .services 
+     {
+         & .services-data
+         {
+              width:80%;
+         }
+     }
+  }
+  @media (max-width:850px) {
+  
+    .services 
+     {
+         & .services-data
+         {
+              width:90%;
+         }
+     }
+  }
+  @media (max-width:850px) {
+  
+    .services 
+     {
+         & .services-data
+         {
+              width:70%;
+            grid-template-columns: 100%;
+
+         }
+     }
+  }
+  @media (max-width:500px) {
+  
+    .services 
+     {
+         & .services-data
+         {
+              width:90%;
+         }
+     }
+  }
+  @media (max-width:400px) {
+  
+    .services 
+     {
+         & .services-data
+         {
+             padding-right:10px;
+             padding-right: 10px;
+              width:90%;
+         }
+     }
+  }

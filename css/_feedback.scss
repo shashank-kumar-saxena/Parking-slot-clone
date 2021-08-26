@@ -1,0 +1,94 @@
+.Contact-us
+{
+    background-color: 2b0d61;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    .Contact-heading
+    {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        color: white;
+    }
+    
+    .copyright
+    {
+        position: relative;
+        margin-top: 3em;
+        color:white;
+        opacity:.5;
+    }
+    .email-phone
+    {
+        margin-top: 1em;
+        color: white;
+        display: flex;
+        flex-direction: row-reverse;
+        & h6
+        {
+            a
+            {
+                color: white;
+                text-decoration: none;
+                &:hover
+                {
+                    color:rgb(60, 87, 236);
+                }
+            }
+        }
+        & h6:nth-child(1)
+        {
+            margin-left: 20px;
+            padding-left: 1em;
+            border-left: 1px solid rgba(255, 255, 255,.7);
+        }
+    }
+    .Social-handle
+    {
+        margin-top: 2em;
+        font-size: 2em;
+        & a
+        {
+            color: white;
+            margin-left: 10px;
+            &:nth-child(1)
+            {
+                margin-left:0px;
+            }
+            &:hover
+            {
+                opacity:.7;
+            }
+        }
+    }
+}
+@media (max-width:400px) {
+    .Contact-us
+    {
+
+    
+    .email-phone
+    {
+        flex-direction: column;
+        & h6
+        {
+            a
+            {
+                color: white;
+                text-decoration: none;
+                &:hover
+                {
+                    color:rgb(60, 87, 236);
+                }
+            }
+        }
+        & h6:nth-child(1)
+        {
+            margin:0px 0px 2em 0px;
+            padding-left: 0px;
+            border: none;
+        }   
+}
+}
+}
